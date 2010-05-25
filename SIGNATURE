@@ -14,12 +14,12 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 7d76fa6c94e0a9739df77789ff1c5122906f935f Changes
-SHA1 795a991c96efc047d974d2b707a761042575a62e Changes.ttl
-SHA1 0035584ac5d7b96e9006ef3ae4d07544bec4aede Changes.xml
-SHA1 fd12b1389346c312f0459716bc8bd7bf45dcd76d MANIFEST
+SHA1 7213748f41e1858d1af7c824f28cab1216024178 Changes
+SHA1 c71dc8132e8a5cbeb448bca0716b633eb6614c70 Changes.ttl
+SHA1 7a1d56c2b7e6398ba33e1a74b52438533447df01 Changes.xml
+SHA1 75fe3d4883bef7250badeba5730559a855d1fdf1 MANIFEST
 SHA1 354096507daf87ed4425cbff4f7aba6cf5bae921 MANIFEST.SKIP
-SHA1 27f56a4a25b96999315a16abe7369ff35ff9ddbf META.yml
+SHA1 b6e8a18fa349c49fe2c044f750b7bf40582ed322 META.yml
 SHA1 8875355bdf70607b5509deff658bfa9fd88348c7 Makefile.PL
 SHA1 9d88c130e49deb8a0873819cc19d03e518568a3c README
 SHA1 8842ca38ce27ccf75e1ce8f5dfb93fa62d933b2e inc/Module/AutoInstall.pm
@@ -36,17 +36,18 @@ SHA1 a615bb050ca0b2d79bfa0224addcb83019a53b09 inc/Module/Install/ReadmeFromPod.p
 SHA1 5c25f1104c0038041e3b93e0660c39171e4caf2b inc/Module/Install/Win32.pm
 SHA1 94d47349c803c4bd2a9230d25e4db0b6aaf1acd8 inc/Module/Install/WriteAll.pm
 SHA1 1e6399a0585817abef500c34fce676fb9b0545f0 inc/Test/Signature.pm
-SHA1 c5d5c26d02b651c75a7e5b3916749486a4cfec8e lib/RDF/RDFa/Linter.pm
-SHA1 b10c4a672cc87aa896fe105a0e6db093ec409044 lib/RDF/RDFa/Linter/Error.pm
-SHA1 cdd16e39227abc47d509ce0b62bc54da53af59fa lib/RDF/RDFa/Linter/Service.pm
-SHA1 0bb6a0e12ca4cb578a77c21a676ff6809e501e47 lib/RDF/RDFa/Linter/Service/CreativeCommons.pm
-SHA1 c8f3301988f914e8401f71ab238b8695dcafbab0 lib/RDF/RDFa/Linter/Service/Facebook.pm
+SHA1 139eeba0fdfadd24f2fe3648b61434556be82086 lib/RDF/RDFa/Linter.pm
+SHA1 d0201d7e2560321b973accc6b57d949139a4c6de lib/RDF/RDFa/Linter/Error.pm
+SHA1 f529f2223104372a8e9735bca73d3a4999c04e66 lib/RDF/RDFa/Linter/Service.pm
+SHA1 d17c532aed11fcc1493c1f074ed376f430846972 lib/RDF/RDFa/Linter/Service/CreativeCommons.pm
+SHA1 1258b2ac078206e5f4b5af8139f29a5c1afe526d lib/RDF/RDFa/Linter/Service/Facebook.pm
+SHA1 06a223ab2d016dd1ef7179f60aa36162a4e10fb7 lib/RDF/RDFa/Linter/Service/Google.pm
 SHA1 bb128dce2db8ad397dbeb957d79d084cc5d2391a t/00sig.t
 SHA1 388f021848e504f8dbe468df25efffbf9670f41c t/01basic.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.10 (GNU/Linux)
 
-iEYEARECAAYFAkv4HXcACgkQzr+BKGoqfTlF0ACeP/f1gOeTeedOnPCQNUeOAtok
-XYMAnRMZ/TevdvyjIVfUBSuJ0xgZEOy9
-=N9S8
+iEYEARECAAYFAkv4N8sACgkQzr+BKGoqfTlnLwCfXbhk3kGjN4KTORNQ3M03VHO0
+qkEAn2bi7HIwj4rKbt9/laAFXgk86AeX
+=2Xo8
 -----END PGP SIGNATURE-----
