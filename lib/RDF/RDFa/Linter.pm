@@ -6,10 +6,11 @@ use RDF::RDFa::Linter::Error;
 use RDF::RDFa::Linter::Service::CreativeCommons;
 use RDF::RDFa::Linter::Service::Facebook;
 use RDF::RDFa::Linter::Service::Google;
+use RDF::RDFa::Linter::Service::SchemaOrg;
 use RDF::RDFa::Parser;
 use RDF::Trine;
 
-our $VERSION = '0.051';
+our $VERSION = '0.052';
 
 sub new
 {
@@ -135,10 +136,6 @@ __END__
 =head1 NAME
 
 RDF::RDFa::Linter - find common mistakes in RDFa files
-
-=head1 VERSION
-
-0.01
 
 =head1 SYNOPSIS
 

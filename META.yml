@@ -4,42 +4,43 @@ author:
   - 'Toby Inkster <tobyink@cpan.org>'
 build_requires:
   ExtUtils::MakeMaker: 6.42
-  Module::Signature: 0.66
   Test::More: 0.61
 configure_requires:
   ExtUtils::MakeMaker: 6.42
 distribution_type: module
-generated_by: 'Module::Install version 1.00'
+generated_by: 'Module::Install version 1.02'
 keywords:
-  - SemWeb
-  - Semantic
-  - Web
+  - Checker
   - HTML
-  - XHTML
+  - Linter
   - RDF
   - RDFa
-  - Linter
+  - SemWeb
+  - 'Semantic Web'
   - Validator
-  - Checker
+  - XHTML
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
+module_name: RDF::RDFa::Linter
 name: RDF-RDFa-Linter
 no_index:
   directory:
+    - examples
     - inc
     - t
+    - xt
 requires:
-  RDF::RDFa::Generator: 0.02
-  RDF::RDFa::Parser: 1.093
-  RDF::Trine: 0.112
-  RDF::TrineShortcuts: 0.100
-  XML::LibXML: 1.60
+  RDF::RDFa::Generator: 0
+  RDF::RDFa::Parser: 0
+  RDF::Trine: 0
+  RDF::TrineShortcuts: 0
+  XML::LibXML: 0
   perl: 5.8.0
 resources:
   bugtracker: http://rt.cpan.org/Dist/Display.html?Queue=RDF-RDFa-Linter
-  homepage: http://search.cpan.org/dist/RDF-RDFa-Linter/
+  homepage: https://metacpan.org/release/RDF-RDFa-Linter
   license: http://dev.perl.org/licenses/
-  repository: http://goddamn.co.uk/viewvc/perlmods/RDF-RDFa-Linter/
-version: 0.051
+  repository: http://goddamn.co.uk/svn-web/perlmods/browse/RDF-RDFa-Linter/
+version: 0.052

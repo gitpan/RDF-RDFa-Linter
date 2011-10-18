@@ -1,9 +1,6 @@
 NAME
     RDF::RDFa::Linter - find common mistakes in RDFa files
 
-VERSION
-    0.01
-
 SYNOPSIS
      my $parser = RDF::RDFa::Parser->new_from_url($input_url);
      my $linter = RDF::RDFa::Linter->new('Facebook', $input_url, $parser);
