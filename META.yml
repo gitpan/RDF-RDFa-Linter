@@ -3,12 +3,13 @@ abstract: 'find common mistakes in RDFa files'
 author:
   - 'Toby Inkster <tobyink@cpan.org>'
 build_requires:
-  ExtUtils::MakeMaker: 6.42
+  ExtUtils::MakeMaker: 6.59
   Test::More: 0.61
 configure_requires:
-  ExtUtils::MakeMaker: 6.42
+  ExtUtils::MakeMaker: 6.59
 distribution_type: module
-generated_by: 'Module::Install version 1.02'
+dynamic_config: 0
+generated_by: 'Module::Install version 1.06'
 keywords:
   - Checker
   - HTML
@@ -32,10 +33,11 @@ no_index:
     - t
     - xt
 requires:
+  RDF::Query: 0
   RDF::RDFa::Generator: 0
   RDF::RDFa::Parser: 0
   RDF::Trine: 0
-  RDF::TrineShortcuts: 0
+  RDF::TrineX::Functions: 0
   XML::LibXML: 0
   perl: 5.8.0
 resources:
@@ -43,4 +45,4 @@ resources:
   homepage: https://metacpan.org/release/RDF-RDFa-Linter
   license: http://dev.perl.org/licenses/
   repository: http://goddamn.co.uk/svn-web/perlmods/browse/RDF-RDFa-Linter/
-version: 0.052
+version: 0.053

@@ -2,11 +2,11 @@ package RDF::RDFa::Linter::Service::Google;
 
 use 5.008;
 use base 'RDF::RDFa::Linter::Service';
-use common::sense;
+use strict;
 use constant V_NS => 'http://rdf.data-vocabulary.org/#';
-use RDF::TrineShortcuts qw'rdf_query rdf_statement';
+use RDF::TrineX::Functions -shortcuts, statement => { -as => 'rdf_statement' };
 
-our $VERSION = '0.052';
+our $VERSION = '0.053';
 
 my @properties = qw(name author cholesterol servingSize region
 	tag max instruction prepTime contact tel category sugar friend count
